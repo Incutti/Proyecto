@@ -7,6 +7,7 @@ upload_port = COM02
 // lado izq  de arriba a abajo | 3.3v | dejo 3 | 35 | 34 | 32
 
 void setup(){
+	pinMode (ledPin, OUTPUT);
   pinMode (buzzerPin, OUTPUT);
   pinMode (switchPin, INPUT);
 }
